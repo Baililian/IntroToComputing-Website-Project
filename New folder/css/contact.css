@@ -1,0 +1,78 @@
+/* ROOT VALUES */
+:root{
+    --bg-clr: #fff;
+    --primary-clr: #74e874;
+    --hover-clr: #96ed96;
+}
+
+.contactPage{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+    .contactPage .contact{
+        text-transform: uppercase;
+        color: var(--bg-clr);
+        background-color: var(--primary-clr);
+        padding: 0 0.5%;
+        margin-top: 5rem !important;
+    }
+    .contactPage .pContact{
+        position: absolute;
+        margin-top: 10%;
+    }
+    .contactPage .contactForm{
+        height: 65%;
+        width: 45%;
+        /* background-color: red; */
+        position: absolute;
+        margin-top: 15%;
+        border: 2px solid #e0e0e0;
+        box-shadow: 1px 1px 10px 4px #f4f3f3;
+    }
+    .contactForm .fillIn{
+        display: flex;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .contactForm .message{
+        height: 40%;
+    }
+    .contactForm .name,
+    .contactForm .email{
+        height: 12%;
+    }
+    .contactForm .name,
+    .contactForm .email,
+    .contactForm .message{
+        margin-top: 3%;
+        background-color: whitesmoke;
+        padding: 3% 5%;
+    }
+    .contactForm .name{
+        margin-top: 10%;
+    }
+    .contactForm .sendBtn{
+        font-size: 110%;
+        width: 11%;
+        height: 6%;
+        text-transform: uppercase;
+        margin-left: 79%;
+        margin-top: 2.5%;
+        background-color: var(--primary-clr);
+        color: var(--bg-clr);
+    }
+    .contactForm .sendBtn:hover{
+        background-color: var(--hover-clr);
+    }
+    .contactForm .name,
+    .contactForm .email,
+    .contactForm .message,
+    .contactForm .sendBtn{
+        outline: none;
+        border: none;
+        border-radius: 2px;
+    }

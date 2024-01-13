@@ -1,0 +1,61 @@
+/* ROOT VALUES */
+:root{
+    --bg-clr: #fff;
+    --primary-clr: #74e874;
+    --hover-clr: #96ed96;
+}
+
+.home{
+    width: 100%;
+    min-height: 700px;
+    background: url("../photos/img-vector.png");
+    display: grid;
+    justify-content: center;
+    align-items: center; 
+    background-size: cover;
+}
+
+.home-text{
+    color: var(--bg-clr);
+    text-align: center;
+}
+
+.home-title{
+    font-size: 3.5rem;
+    color: var(--primary-clr);
+}
+
+.home-subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media (max-width: 1060px){
+    .home-text{
+        width: 100%
+    }
+}
+
+@media (max-width: 768px){
+    .home{
+        min-height: 380px;
+    }
+
+    .home-title{
+        font-size: 3rem;
+    }   
+}
+
+@media (max-width: 396px){
+    .home{
+        min-height: 300px;
+    }
+
+    .home-title{
+        font-size: 2rem;
+    }
+
+    .home-subtitle{
+        font-size: 0.9rem;
+    }
+}
