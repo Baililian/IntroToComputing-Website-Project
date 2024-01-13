@@ -71,31 +71,6 @@
     color: var(--bg-clr);
 }
 
-/* .contactIcon .info li{
-    display: flex !important;
-    margin-bottom: 16px;
-} */
-
-/* .contactIcon .info li span:nth-child(1){
-    color: #fff;
-    font-size: 20px;
-    margin-right: 10px;
-} */
-
-/* .contactIcon .info li span{
-    color: #999;
-}
-
-.contactIcon .info li a{
-    color: #999;
-    text-decoration: none;
-    transition: .5s;
-}
-
-.contactIcon .info li a:hover{
-    color: #fff;
-}  */
-
 footer{
     position: relative;
     width: 100%;
